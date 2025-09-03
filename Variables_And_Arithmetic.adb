@@ -25,9 +25,9 @@ procedure Variables_And_Arithmetic is
    A, B : Integer;
    Is_Equal, Is_Greater : Boolean; 
 
+   Value_Boolean : Boolean := False;
 begin
 
-   Value_Boolean : Boolean := False;
 
    Put_Line("=== НАЧАЛО ПРОГРАММЫ ===");
    New_Line;

@@ -1,3 +1,4 @@
 *.o
 *main
 *.ali
+*Variables_And_Arithmetic

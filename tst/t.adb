@@ -4,5 +4,12 @@ package body T is
    begin
       res := a + b;
       return res;
-   end Test;                           
+   end Test;     
+
+   function Test2(a, b: Integer) return Integer is
+      res : Integer;
+   begin
+      res := a + b;
+      return res;
+   end Test2;                        
 end T;

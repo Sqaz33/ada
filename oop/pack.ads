@@ -13,4 +13,6 @@ package Pack is
 
    procedure Bar;
 
+      --  procedure Bar(B: Base); err
+
 end Pack;

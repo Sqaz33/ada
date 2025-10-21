@@ -9,10 +9,12 @@ procedure Main is
    end Pol;
    V1: Pack.Base := (X => 2);
    V2: Pack.Derived := (X => 3);
+   V3: Pack.DerivedDerived := (X => 4);
 
 begin
 
    Pol(V1);
    Pol(V2);
+   Pol(V3);
 
 end Main;
